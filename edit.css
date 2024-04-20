@@ -1,0 +1,375 @@
+.frame {
+    width:1500px;
+    height:2020px;
+    border:px solid;
+}
+
+.header {
+    width:1500px;
+    height:620px;
+    border:px solid;
+    display:flex;
+    flex-direction: row;
+}
+
+.danhmuc-sanpham {
+    width:380px;
+    height:610px;
+    border:px solid;
+    margin-right:10px;
+    margin-top:0px;
+}
+.banner {
+   width:1100px;
+   height:500px;
+   border:px solid;
+}
+
+.container {
+    width: 1500px;
+    height: 2000px;
+    border: px solid;
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .right {
+    width: 1100px;
+    height:1500px;
+    border: px solid;
+  }
+  
+  .left {
+    width: 400px;
+    height:1500px;
+    border: px solid;
+  }
+  
+  .banner {
+    width:1100px;
+    height:500px;
+    background-position:unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./banner2.jpg');
+    display:flex;
+    flex-direction: row;
+    border:px solid  rgb(65, 65, 201);;
+  }
+  
+  .banner-left {
+    width:800px;
+  }
+  
+  .banner-right {
+    width:300px;
+    text-align: center;
+  }
+  .banner ul {
+    display:flex;
+    flex-direction: row;
+    margin-top:0px;
+    font-size: 20px;
+    padding-top:20px;
+    font-weight:bold;
+    padding-left:30px;
+  }
+  
+  .banner ul li {
+    list-style-type: none;
+    margin-right:35px;
+    border-color:rgb(65, 65, 201);
+  }
+  
+  .banner ul li a:hover {
+    color:rgb(247, 87, 87);
+  }
+  
+  .banner ul li a {
+    text-decoration: none;
+    padding-right:20px;
+    color:rgb(65, 65, 201);
+  }
+  
+  .logo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:aliceblue;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .logo:hover {
+    color:rgb(65, 65, 201);
+  }
+  
+  .logo i {
+    font-size:40px;
+    padding-right:5px;
+  }
+  
+  .contact {
+    display:flex;
+    flex-direction: row;
+    padding-top:350px;
+    font-size: 30px;
+    color:aliceblue;
+    padding-left:90px;
+  }
+  
+  .contact i {
+    padding-right:20px;
+    
+  }
+  .contact a {
+    color:aliceblue;
+  }
+  
+  .contact a:hover:nth-child(1){
+    color:blue;
+  }
+  .contact a:hover:nth-child(2) {
+    color: black;
+  }
+  .contact a:hover:nth-child(3) {
+    color:rgb(229, 7, 7);
+  }
+  
+  .container2 {
+    background-color:rgb(71, 132, 239);
+    color:aliceblue;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:10px;
+    text-align: center;
+  }
+  
+  .container2 input {
+    height:40px;
+    width:250px;
+    border-radius: 5px;
+    border:none;
+    margin-left: 50px;
+    font-size: 15px;
+    padding-left: 10px;
+    
+  
+  }
+  
+  .logo2 {
+    display:flex;
+    flex-direction: row;
+    padding-left:20px;
+    font-size: 25px;
+    align-items: center;
+  }
+  
+  .logo2 i {
+    font-size: 30px;
+    padding-right:5px;
+  }
+  
+  .find {
+    font-size: 25px;
+    color:aliceblue;
+    align-items: center;
+    padding-left:5px;
+  }
+  
+  .find:hover {
+    color:blue;
+  }
+  
+  .lienhe {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:50px;
+    font-size: 20px;
+  }
+  .lienhe i {
+    font-size:30px;
+    padding-right:5px;
+    
+  }
+  
+  .select {
+    margin-top:10px;
+    width:250px;
+    height:40px;
+    border:none;
+    background-color:rgb(71, 132, 239);
+    border-radius: 25px;
+    font-size: 20px;
+    color:aliceblue;
+    margin-left:20px;
+  }
+  
+  .select option {
+    font-size: 18px;
+    color:aliceblue;
+    text-align: center;
+  }
+  
+  .sanpham {
+    width:1100px;
+    height:1000px;
+    padding-left:25px;
+    
+  }
+  
+  .row {
+    display:flex;
+    flex-direction: row;
+  }
+  .sanpham-1 {
+    width:350px;
+    height:270px;
+    border:px solid;
+    border-radius: 10px;
+    margin-right:20px;
+    text-align: center;
+    margin-top:10px;
+  }
+
+  .sanpham-1:hover {
+    background-color:aquamarine;
+  }
+  
+  .img-sanpham {
+    width:350px;
+    height:180px;
+    border-radius: 10px;
+
+  }
+
+  .img-sanpham:hover {
+    display:flex;
+  }
+
+  .sanpham div h3 {
+    margin:0px;
+    color:red;
+  }
+  .sanpham div h2 {
+    margin:0px;
+    color:rgb(71, 132, 239);
+    
+  }
+  
+  .danhmuc-sanpham h2 {
+    background-color:rgb(71, 132, 239);
+    color:#FFFFFF;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:5px;
+    margin-top:5px;
+  }
+
+  .danhmuc-sanpham i {
+    margin-right:5px;
+  }
+
+  .danhmuc-sanpham li {
+    list-style-type: none;
+    justify-content: center;
+    border-bottom: 1px solid;
+    border-color:gainsboro;
+    padding-left:20px;
+    padding-bottom:5px;
+    padding-top:5px;
+  }
+
+  .danhmuc-sanpham li:hover {
+    background-color:gainsboro;
+  }
+
+  .danhmuc-sanpham a {
+    text-decoration: none;
+    font-size: 21px;
+    color:rgb(71, 132, 239);
+  }
+
+
+  .footer {
+    height: 300px;
+    width: 1500px;
+    border: px solid;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(83, 138, 234);
+    
+
+}
+
+.footer-left {
+    width: 700px;
+    padding-left: 30px;
+    font-size: 16px;
+    color:#FFFFFF;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+
+}
+
+.footer-left h2 {
+    color:#FFFFFF;
+}
+
+.footer-left a {
+    padding-bottom: 2px;
+}
+
+.footer-center {
+    width: 500px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 50px;
+
+}
+
+.footer-center li {
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.footer-center li a:hover {
+    color:rgb(27, 11, 245);
+}
+
+.footer-center a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.footer-right {
+    width: 200px;
+    font-size: 16px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+.footer-right li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.footer-right li a:hover {
+    color:rgb(27, 11, 245);
+}
